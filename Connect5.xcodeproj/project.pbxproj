@@ -7,21 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A028082CB36CE446B8DC94DD /* Pods_Connect5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDE34EBA5910378EAA7EA40 /* Pods_Connect5.framework */; };
+		C515B0A61FB13B28004773E7 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C515B0A51FB13B28004773E7 /* SettingsTableViewController.swift */; };
+		C521FBB11FAABF340097505B /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C521FBB01FAABF340097505B /* BoardView.swift */; };
+		C5614E151FAD369F00A1A4F8 /* GameEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5614E141FAD369F00A1A4F8 /* GameEvaluator.swift */; };
+		C58B9D391FC102840042591C /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B9D381FC102840042591C /* TutorialViewController.swift */; };
+		C5A2A1ED1FAED4DB003F495B /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54668891FAED40F00395ADF /* FontAwesome.framework */; };
+		C5A2A1EE1FAED4DB003F495B /* FontAwesome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C54668891FAED40F00395ADF /* FontAwesome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C5A2A1F11FAF7044003F495B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2A1F01FAF7044003F495B /* RootViewController.swift */; };
+		C5A2A1F31FAF70AA003F495B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2A1F21FAF70AA003F495B /* MenuViewController.swift */; };
+		C5A2A1F51FAF7EA1003F495B /* Stuffs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2A1F41FAF7EA1003F495B /* Stuffs.swift */; };
+		C5A2A1F71FAF8244003F495B /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2A1F61FAF8244003F495B /* MenuTableViewCell.swift */; };
+		C5A2A1F91FAF94BE003F495B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2A1F81FAF94BE003F495B /* SettingsViewController.swift */; };
+		C5D8690B1FD4DF6E00B9295B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5D8690A1FD4DF6E00B9295B /* GoogleService-Info.plist */; };
+		C5D869121FD4E17C00B9295B /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D869111FD4E17C00B9295B /* Room.swift */; };
+		C5D869151FD4E27B00B9295B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D869141FD4E27B00B9295B /* DataService.swift */; };
+		C5D869171FD4E92C00B9295B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D869161FD4E92C00B9295B /* AuthService.swift */; };
 		C5D8DC461F774CE70089A20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8DC451F774CE70089A20A /* AppDelegate.swift */; };
-		C5D8DC481F774CE70089A20A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8DC471F774CE70089A20A /* ViewController.swift */; };
+		C5D8DC481F774CE70089A20A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8DC471F774CE70089A20A /* MainViewController.swift */; };
 		C5D8DC4B1F774CE70089A20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D8DC491F774CE70089A20A /* Main.storyboard */; };
 		C5D8DC4D1F774CE70089A20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D8DC4C1F774CE70089A20A /* Assets.xcassets */; };
 		C5D8DC501F774CE70089A20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D8DC4E1F774CE70089A20A /* LaunchScreen.storyboard */; };
+		C5D8DC581F774D010089A20A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8DC571F774D010089A20A /* Game.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C5A2A1EF1FAED4DB003F495B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C5A2A1EE1FAED4DB003F495B /* FontAwesome.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4DDE34EBA5910378EAA7EA40 /* Pods_Connect5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Connect5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C515B0A51FB13B28004773E7 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		C521FBB01FAABF340097505B /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		C54668891FAED40F00395ADF /* FontAwesome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FontAwesome.framework; sourceTree = "<group>"; };
+		C5614E141FAD369F00A1A4F8 /* GameEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEvaluator.swift; sourceTree = "<group>"; };
+		C58B9D381FC102840042591C /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		C5A2A1F01FAF7044003F495B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C5A2A1F21FAF70AA003F495B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C5A2A1F41FAF7EA1003F495B /* Stuffs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stuffs.swift; sourceTree = "<group>"; };
+		C5A2A1F61FAF8244003F495B /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C5A2A1F81FAF94BE003F495B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C5D8690A1FD4DF6E00B9295B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5D869111FD4E17C00B9295B /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		C5D869141FD4E27B00B9295B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C5D869161FD4E92C00B9295B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		C5D8DC421F774CE70089A20A /* Connect5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8DC451F774CE70089A20A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5D8DC471F774CE70089A20A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5D8DC471F774CE70089A20A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C5D8DC4A1F774CE70089A20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D8DC4C1F774CE70089A20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D8DC4F1F774CE70089A20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5D8DC511F774CE70089A20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D8DC571F774D010089A20A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D536D030FFB89D3FC24A71D4 /* Pods-Connect5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Connect5/Pods-Connect5.debug.xcconfig"; sourceTree = "<group>"; };
+		EC35AEA4246D6DE578D5622D /* Pods-Connect5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect5.release.xcconfig"; path = "Pods/Target Support Files/Pods-Connect5/Pods-Connect5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +78,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A2A1ED1FAED4DB003F495B /* FontAwesome.framework in Frameworks */,
+				A028082CB36CE446B8DC94DD /* Pods_Connect5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A886430A331E6867127631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DDE34EBA5910378EAA7EA40 /* Pods_Connect5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5D8690C1FD4E10E00B9295B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5A2A1F41FAF7EA1003F495B /* Stuffs.swift */,
+				C5D8DC571F774D010089A20A /* Game.swift */,
+				C5614E141FAD369F00A1A4F8 /* GameEvaluator.swift */,
+				C5D869111FD4E17C00B9295B /* Room.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5D8690D1FD4E11900B9295B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C521FBB01FAABF340097505B /* BoardView.swift */,
+				C5A2A1F61FAF8244003F495B /* MenuTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5D8690E1FD4E12000B9295B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5A2A1F01FAF7044003F495B /* RootViewController.swift */,
+				C5D8DC471F774CE70089A20A /* MainViewController.swift */,
+				C5A2A1F21FAF70AA003F495B /* MenuViewController.swift */,
+				C5A2A1F81FAF94BE003F495B /* SettingsViewController.swift */,
+				C515B0A51FB13B28004773E7 /* SettingsTableViewController.swift */,
+				C58B9D381FC102840042591C /* TutorialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C5D869131FD4E26D00B9295B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C5D869141FD4E27B00B9295B /* DataService.swift */,
+				C5D869161FD4E92C00B9295B /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		C5D8DC391F774CE70089A20A = {
 			isa = PBXGroup;
 			children = (
+				C54668891FAED40F00395ADF /* FontAwesome.framework */,
 				C5D8DC441F774CE70089A20A /* Connect5 */,
 				C5D8DC431F774CE70089A20A /* Products */,
+				DCABFF8D83E39EB38E87BAB7 /* Pods */,
+				18A886430A331E6867127631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +158,27 @@
 		C5D8DC441F774CE70089A20A /* Connect5 */ = {
 			isa = PBXGroup;
 			children = (
+				C5D869131FD4E26D00B9295B /* Service */,
+				C5D8690E1FD4E12000B9295B /* Controller */,
+				C5D8690D1FD4E11900B9295B /* View */,
+				C5D8690C1FD4E10E00B9295B /* Model */,
 				C5D8DC451F774CE70089A20A /* AppDelegate.swift */,
-				C5D8DC471F774CE70089A20A /* ViewController.swift */,
 				C5D8DC491F774CE70089A20A /* Main.storyboard */,
 				C5D8DC4C1F774CE70089A20A /* Assets.xcassets */,
 				C5D8DC4E1F774CE70089A20A /* LaunchScreen.storyboard */,
 				C5D8DC511F774CE70089A20A /* Info.plist */,
+				C5D8690A1FD4DF6E00B9295B /* GoogleService-Info.plist */,
 			);
 			path = Connect5;
+			sourceTree = "<group>";
+		};
+		DCABFF8D83E39EB38E87BAB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D536D030FFB89D3FC24A71D4 /* Pods-Connect5.debug.xcconfig */,
+				EC35AEA4246D6DE578D5622D /* Pods-Connect5.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +188,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5D8DC541F774CE70089A20A /* Build configuration list for PBXNativeTarget "Connect5" */;
 			buildPhases = (
+				FCF845E707815C51CBAA5643 /* [CP] Check Pods Manifest.lock */,
 				C5D8DC3E1F774CE70089A20A /* Sources */,
 				C5D8DC3F1F774CE70089A20A /* Frameworks */,
 				C5D8DC401F774CE70089A20A /* Resources */,
+				C5A2A1EF1FAED4DB003F495B /* Embed Frameworks */,
+				C5F4879F1FCE559C003607A4 /* ShellScript */,
+				F246BA4E034C77BFD210ABFE /* [CP] Embed Pods Frameworks */,
+				AAFBA656F62E2BD3290C3B4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D8DC501F774CE70089A20A /* LaunchScreen.storyboard in Resources */,
+				C5D8690B1FD4DF6E00B9295B /* GoogleService-Info.plist in Resources */,
 				C5D8DC4D1F774CE70089A20A /* Assets.xcassets in Resources */,
 				C5D8DC4B1F774CE70089A20A /* Main.storyboard in Resources */,
 			);
@@ -131,12 +254,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAFBA656F62E2BD3290C3B4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect5/Pods-Connect5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F4879F1FCE559C003607A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Target architectures: $ARCHS\"\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\nFRAMEWORK_TMP_PATH=\"$FRAMEWORK_EXECUTABLE_PATH-tmp\"\n\n# remove simulator's archs if location is not simulator's directory\ncase \"${TARGET_BUILD_DIR}\" in\n*\"iphonesimulator\")\necho \"No need to remove archs\"\n;;\n*)\nif $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"i386\") ; then\nlipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"i386\" \"$FRAMEWORK_EXECUTABLE_PATH\"\necho \"i386 architecture removed\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\nfi\nif $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"x86_64\") ; then\nlipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"x86_64\" \"$FRAMEWORK_EXECUTABLE_PATH\"\necho \"x86_64 architecture removed\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\nfi\n;;\nesac\n\necho \"Completed for executable $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\ndone";
+		};
+		F246BA4E034C77BFD210ABFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connect5/Pods-Connect5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF845E707815C51CBAA5643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Connect5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5D8DC3E1F774CE70089A20A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8DC481F774CE70089A20A /* ViewController.swift in Sources */,
+				C5D8DC581F774D010089A20A /* Game.swift in Sources */,
+				C5614E151FAD369F00A1A4F8 /* GameEvaluator.swift in Sources */,
+				C5A2A1F51FAF7EA1003F495B /* Stuffs.swift in Sources */,
+				C515B0A61FB13B28004773E7 /* SettingsTableViewController.swift in Sources */,
+				C5A2A1F91FAF94BE003F495B /* SettingsViewController.swift in Sources */,
+				C5A2A1F11FAF7044003F495B /* RootViewController.swift in Sources */,
+				C5D869121FD4E17C00B9295B /* Room.swift in Sources */,
+				C58B9D391FC102840042591C /* TutorialViewController.swift in Sources */,
+				C5D869151FD4E27B00B9295B /* DataService.swift in Sources */,
+				C5A2A1F31FAF70AA003F495B /* MenuViewController.swift in Sources */,
+				C5A2A1F71FAF8244003F495B /* MenuTableViewCell.swift in Sources */,
+				C521FBB11FAABF340097505B /* BoardView.swift in Sources */,
+				C5D869171FD4E92C00B9295B /* AuthService.swift in Sources */,
+				C5D8DC481F774CE70089A20A /* MainViewController.swift in Sources */,
 				C5D8DC461F774CE70089A20A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,13 +472,19 @@
 		};
 		C5D8DC551F774CE70089A20A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D536D030FFB89D3FC24A71D4 /* Pods-Connect5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GBL4Z8K77V;
+				DEVELOPMENT_TEAM = AJ8XAAW72G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Connect5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peterkeder.Connect5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beginstudio.Connect5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +493,19 @@
 		};
 		C5D8DC561F774CE70089A20A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC35AEA4246D6DE578D5622D /* Pods-Connect5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GBL4Z8K77V;
+				DEVELOPMENT_TEAM = AJ8XAAW72G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Connect5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peterkeder.Connect5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beginstudio.Connect5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
